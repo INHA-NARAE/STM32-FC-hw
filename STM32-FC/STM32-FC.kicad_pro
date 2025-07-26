@@ -783,6 +783,24 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -860,16 +878,12 @@
       "Sensors"
     ],
     [
-      "77caf73d-b7f5-48a6-9de3-ef3df69ee7d9",
-      "RC_INPUT"
-    ],
-    [
-      "20dd612a-0830-4eda-be1e-c1591992c654",
-      "GPS"
-    ],
-    [
       "a2773f19-5d2b-46e4-ac82-0d57be5829df",
       "Communication"
+    ],
+    [
+      "9f3eb64b-134a-4c30-b954-72a2b2c054ef",
+      "IO Processor"
     ]
   ],
   "text_variables": {}

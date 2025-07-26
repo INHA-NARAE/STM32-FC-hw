@@ -15,5 +15,4 @@
   (lib (name "PWM_Connector")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector/PWM_Connector/PWM_Connector.pretty")(options "")(descr "3 rows 2.54mm PWM Conn."))
   (lib (name "JST_GH_SM")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector/JST_GH_SM.pretty")(options "")(descr "Conn. JST_GH_SM"))
   (lib (name "JST_ZH")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector/JST_ZH.pretty")(options "")(descr "Conn. JST_ZH"))
-  (lib (name "Hole")(type "KiCad")(uri "${KIPRJMOD}/lib/Hole.pretty")(options "")(descr "m.2 Hole"))
 )
