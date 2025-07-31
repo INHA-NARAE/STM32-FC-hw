@@ -801,6 +801,18 @@
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -875,7 +887,7 @@
     ],
     [
       "2d70a10f-8989-40ff-9a87-2cfa97b94251",
-      "Sensors"
+      "AHRS"
     ],
     [
       "a2773f19-5d2b-46e4-ac82-0d57be5829df",
