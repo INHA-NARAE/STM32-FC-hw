@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "5277304b-3759-41bd-aa67-0ff587eb17ac")
+	(uuid "593e633f-7d16-4f56-89ff-e9dc55cdb285")
 	(paper "A4")
 	(title_block
 		(title "STM32 Flight Controller")

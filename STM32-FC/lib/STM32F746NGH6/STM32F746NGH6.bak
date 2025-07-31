@@ -4046,7 +4046,7 @@
 			)
 		)
 		(property "Footprint" "BGA216C80P15X15_1300X1300X110"
-			(at 129.032 55.372 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/96/ed/61/9b/e0/6c/45/0b/DM00166116.pdf/files/DM00166116.pdf/jcr:content/translations/en.DM00166116.pdf"
-			(at 144.018 54.864 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "Description" "32-Bit MCU+FPU 1M Flash USB LCD TFBGA216 STMicroelectronics STM32F746NGH6, 32bit ARM Cortex M7 Microcontroller, 216MHz, 1024 kB Flash, OTP, 216-Pin TFBGA"
-			(at 144.526 54.61 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4145,7 @@
 		(symbol "STM32F746NGH6_1_1_1"
 			(rectangle
 				(start -8.89 53.34)
-				(end 8.89 -52.07)
+				(end 8.89 -54.61)
 				(stroke
 					(width 0)
 					(type solid)
@@ -4377,16 +4377,34 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 24.13 0)
+				(at -13.97 26.67 0)
 				(length 5.08)
-				(name "PE4"
+				(name "PA0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A1"
+				(number "N3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 24.13 0)
+				(length 5.08)
+				(name "PA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4397,14 +4415,14 @@
 			(pin passive line
 				(at -13.97 21.59 0)
 				(length 5.08)
-				(name "PE3"
+				(name "PA2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A2"
+				(number "P2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4415,14 +4433,14 @@
 			(pin passive line
 				(at -13.97 19.05 0)
 				(length 5.08)
-				(name "PE2"
+				(name "PA3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A3"
+				(number "R2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4433,14 +4451,14 @@
 			(pin passive line
 				(at -13.97 16.51 0)
 				(length 5.08)
-				(name "PG14"
+				(name "PA4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A4"
+				(number "N4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4451,14 +4469,14 @@
 			(pin passive line
 				(at -13.97 13.97 0)
 				(length 5.08)
-				(name "PE1"
+				(name "PA5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A5"
+				(number "P4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4469,14 +4487,14 @@
 			(pin passive line
 				(at -13.97 11.43 0)
 				(length 5.08)
-				(name "PE0"
+				(name "PA6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A6"
+				(number "P3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4487,14 +4505,14 @@
 			(pin passive line
 				(at -13.97 8.89 0)
 				(length 5.08)
-				(name "PB8"
+				(name "PA7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A7"
+				(number "R3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4505,14 +4523,14 @@
 			(pin passive line
 				(at -13.97 6.35 0)
 				(length 5.08)
-				(name "PB5"
+				(name "PA8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A8"
+				(number "F15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4523,14 +4541,14 @@
 			(pin passive line
 				(at -13.97 3.81 0)
 				(length 5.08)
-				(name "PB4"
+				(name "PA9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A9"
+				(number "E15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4541,14 +4559,14 @@
 			(pin passive line
 				(at -13.97 1.27 0)
 				(length 5.08)
-				(name "PB3"
+				(name "PA10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A10"
+				(number "D15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4559,14 +4577,14 @@
 			(pin passive line
 				(at -13.97 -1.27 0)
 				(length 5.08)
-				(name "PD7"
+				(name "PA11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A11"
+				(number "C15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4577,14 +4595,14 @@
 			(pin passive line
 				(at -13.97 -3.81 0)
 				(length 5.08)
-				(name "PC12"
+				(name "PA12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A12"
+				(number "B15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4595,14 +4613,14 @@
 			(pin passive line
 				(at -13.97 -6.35 0)
 				(length 5.08)
-				(name "PA15"
+				(name "PA13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A13"
+				(number "A15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4631,14 +4649,14 @@
 			(pin passive line
 				(at -13.97 -11.43 0)
 				(length 5.08)
-				(name "PA13"
+				(name "PA15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A15"
+				(number "A13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4649,14 +4667,14 @@
 			(pin passive line
 				(at -13.97 -13.97 0)
 				(length 5.08)
-				(name "PE5"
+				(name "PB0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B1"
+				(number "R5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4667,14 +4685,14 @@
 			(pin passive line
 				(at -13.97 -16.51 0)
 				(length 5.08)
-				(name "PE6"
+				(name "PB1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B2"
+				(number "R4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4685,14 +4703,14 @@
 			(pin passive line
 				(at -13.97 -19.05 0)
 				(length 5.08)
-				(name "PG13"
+				(name "PB2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B3"
+				(number "M5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4703,14 +4721,14 @@
 			(pin passive line
 				(at -13.97 -21.59 0)
 				(length 5.08)
-				(name "PB9"
+				(name "PB3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B4"
+				(number "A10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4721,14 +4739,14 @@
 			(pin passive line
 				(at -13.97 -24.13 0)
 				(length 5.08)
-				(name "PB7"
+				(name "PB4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B5"
+				(number "A9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4738,6 +4756,24 @@
 			)
 			(pin passive line
 				(at -13.97 -26.67 0)
+				(length 5.08)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -29.21 0)
 				(length 5.08)
 				(name "PB6"
 					(effects
@@ -4755,34 +4791,16 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -29.21 0)
-				(length 5.08)
-				(name "PG15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -13.97 -31.75 0)
 				(length 5.08)
-				(name "PG11"
+				(name "PB7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B8"
+				(number "B5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4793,14 +4811,14 @@
 			(pin passive line
 				(at -13.97 -34.29 0)
 				(length 5.08)
-				(name "PJ13"
+				(name "PB8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B9"
+				(number "A7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4811,14 +4829,14 @@
 			(pin passive line
 				(at -13.97 -36.83 0)
 				(length 5.08)
-				(name "PJ12"
+				(name "PB9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B10"
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4829,14 +4847,14 @@
 			(pin passive line
 				(at -13.97 -39.37 0)
 				(length 5.08)
-				(name "PD6"
+				(name "PB10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B11"
+				(number "P12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4847,14 +4865,14 @@
 			(pin passive line
 				(at -13.97 -41.91 0)
 				(length 5.08)
-				(name "PD0"
+				(name "PB12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B12"
+				(number "L13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4865,14 +4883,14 @@
 			(pin passive line
 				(at -13.97 -44.45 0)
 				(length 5.08)
-				(name "PC11"
+				(name "PB13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B13"
+				(number "K14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4883,14 +4901,14 @@
 			(pin passive line
 				(at -13.97 -46.99 0)
 				(length 5.08)
-				(name "PC10"
+				(name "PB11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B14"
+				(number "R13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4901,14 +4919,32 @@
 			(pin passive line
 				(at -13.97 -49.53 0)
 				(length 5.08)
-				(name "PA12"
+				(name "PB14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B15"
+				(number "R14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -52.07 0)
+				(length 5.08)
+				(name "PB15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4953,16 +4989,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 38.1 180)
+				(at 13.97 40.64 180)
 				(length 5.08)
-				(name "VCAP_1"
+				(name "PH0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L11"
+				(number "G1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4971,16 +5007,52 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 33.02 180)
+				(at 13.97 38.1 180)
 				(length 5.08)
-				(name "VCAP_2"
+				(name "PH1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "E11"
+				(number "H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 26.67 180)
+				(length 5.08)
+				(name "PC0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 24.13 180)
+				(length 5.08)
+				(name "PC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4991,14 +5063,14 @@
 			(pin passive line
 				(at 13.97 21.59 180)
 				(length 5.08)
-				(name "PI8"
+				(name "PC2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C2"
+				(number "M4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5009,14 +5081,14 @@
 			(pin passive line
 				(at 13.97 19.05 180)
 				(length 5.08)
-				(name "PI4"
+				(name "PC3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C3"
+				(number "L4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5027,14 +5099,14 @@
 			(pin passive line
 				(at 13.97 16.51 180)
 				(length 5.08)
-				(name "PK7"
+				(name "PC4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C4"
+				(number "N5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5045,14 +5117,14 @@
 			(pin passive line
 				(at 13.97 13.97 180)
 				(length 5.08)
-				(name "PK6"
+				(name "PC5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C5"
+				(number "P5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5063,14 +5135,14 @@
 			(pin passive line
 				(at 13.97 11.43 180)
 				(length 5.08)
-				(name "PK5"
+				(name "PC6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C6"
+				(number "H15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5081,14 +5153,14 @@
 			(pin passive line
 				(at 13.97 8.89 180)
 				(length 5.08)
-				(name "PG12"
+				(name "PC7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C7"
+				(number "G15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5099,14 +5171,14 @@
 			(pin passive line
 				(at 13.97 6.35 180)
 				(length 5.08)
-				(name "PG10"
+				(name "PC8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C8"
+				(number "G14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5117,14 +5189,14 @@
 			(pin passive line
 				(at 13.97 3.81 180)
 				(length 5.08)
-				(name "PJ14"
+				(name "PC9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C9"
+				(number "F14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5135,14 +5207,14 @@
 			(pin passive line
 				(at 13.97 1.27 180)
 				(length 5.08)
-				(name "PD5"
+				(name "PC10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C10"
+				(number "B14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5153,14 +5225,14 @@
 			(pin passive line
 				(at 13.97 -1.27 180)
 				(length 5.08)
-				(name "PD3"
+				(name "PC11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C11"
+				(number "B13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5171,14 +5243,14 @@
 			(pin passive line
 				(at 13.97 -3.81 180)
 				(length 5.08)
-				(name "PD1"
+				(name "PC12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "C12"
+				(number "A12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5188,60 +5260,6 @@
 			)
 			(pin passive line
 				(at 13.97 -6.35 180)
-				(length 5.08)
-				(name "PI3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -8.89 180)
-				(length 5.08)
-				(name "PI2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -11.43 180)
-				(length 5.08)
-				(name "PA11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -13.97 180)
 				(length 5.08)
 				(name "PC13"
 					(effects
@@ -5259,16 +5277,70 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -16.51 180)
+				(at 13.97 -8.89 180)
 				(length 5.08)
-				(name "PF0"
+				(name "PC14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D2"
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -11.43 180)
+				(length 5.08)
+				(name "PC15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -13.97 180)
+				(length 5.08)
+				(name "PD0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -16.51 180)
+				(length 5.08)
+				(name "PD1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5278,168 +5350,6 @@
 			)
 			(pin passive line
 				(at 13.97 -19.05 180)
-				(length 5.08)
-				(name "PI5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -21.59 180)
-				(length 5.08)
-				(name "PI7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -24.13 180)
-				(length 5.08)
-				(name "PI10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -26.67 180)
-				(length 5.08)
-				(name "PI6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -29.21 180)
-				(length 5.08)
-				(name "PK4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -31.75 180)
-				(length 5.08)
-				(name "PK3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -34.29 180)
-				(length 5.08)
-				(name "PG9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -36.83 180)
-				(length 5.08)
-				(name "PJ15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -39.37 180)
-				(length 5.08)
-				(name "PD4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -41.91 180)
 				(length 5.08)
 				(name "PD2"
 					(effects
@@ -5457,16 +5367,178 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -44.45 180)
+				(at 13.97 -21.59 180)
 				(length 5.08)
-				(name "PH15"
+				(name "PD3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D13"
+				(number "C11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -24.13 180)
+				(length 5.08)
+				(name "PD4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -26.67 180)
+				(length 5.08)
+				(name "PD5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -29.21 180)
+				(length 5.08)
+				(name "PD6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -31.75 180)
+				(length 5.08)
+				(name "PD7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -34.29 180)
+				(length 5.08)
+				(name "PD8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -36.83 180)
+				(length 5.08)
+				(name "PD9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -39.37 180)
+				(length 5.08)
+				(name "PD10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -41.91 180)
+				(length 5.08)
+				(name "PD11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -44.45 180)
+				(length 5.08)
+				(name "PD12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5477,14 +5549,14 @@
 			(pin passive line
 				(at 13.97 -46.99 180)
 				(length 5.08)
-				(name "PI1"
+				(name "PD13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D14"
+				(number "M11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5495,14 +5567,32 @@
 			(pin passive line
 				(at 13.97 -49.53 180)
 				(length 5.08)
-				(name "PA10"
+				(name "PD14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "D15"
+				(number "L12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -52.07 180)
+				(length 5.08)
+				(name "PD15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5514,7 +5604,7 @@
 		(symbol "STM32F746NGH6_1_2_1"
 			(rectangle
 				(start -8.89 53.34)
-				(end 8.89 -52.07)
+				(end 8.89 -54.61)
 				(stroke
 					(width 0)
 					(type solid)
@@ -5746,16 +5836,34 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 24.13 0)
+				(at -13.97 26.67 0)
 				(length 5.08)
-				(name "PC14"
+				(name "PE0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "E1"
+				(number "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 24.13 0)
+				(length 5.08)
+				(name "PE1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5765,6 +5873,276 @@
 			)
 			(pin passive line
 				(at -13.97 21.59 0)
+				(length 5.08)
+				(name "PE2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 19.05 0)
+				(length 5.08)
+				(name "PE3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 16.51 0)
+				(length 5.08)
+				(name "PE4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 13.97 0)
+				(length 5.08)
+				(name "PE5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 11.43 0)
+				(length 5.08)
+				(name "PE6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 8.89 0)
+				(length 5.08)
+				(name "PE7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 6.35 0)
+				(length 5.08)
+				(name "PE8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 3.81 0)
+				(length 5.08)
+				(name "PE9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 1.27 0)
+				(length 5.08)
+				(name "PE10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -1.27 0)
+				(length 5.08)
+				(name "PE11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -3.81 0)
+				(length 5.08)
+				(name "PE12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -6.35 0)
+				(length 5.08)
+				(name "PE13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -8.89 0)
+				(length 5.08)
+				(name "PE14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -11.43 0)
+				(length 5.08)
+				(name "PE15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -13.97 0)
+				(length 5.08)
+				(name "PF0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -16.51 0)
 				(length 5.08)
 				(name "PF1"
 					(effects
@@ -5782,277 +6160,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 19.05 0)
-				(length 5.08)
-				(name "PI12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 16.51 0)
-				(length 5.08)
-				(name "PI9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 13.97 0)
-				(length 5.08)
-				(name "PDR_ON"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 11.43 0)
-				(length 5.08)
-				(name "BOOT0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 8.89 0)
-				(length 5.08)
-				(name "PH13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 6.35 0)
-				(length 5.08)
-				(name "PH14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 3.81 0)
-				(length 5.08)
-				(name "PI0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 1.27 0)
-				(length 5.08)
-				(name "PA9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -3.81 0)
-				(length 5.08)
-				(name "PC15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -6.35 0)
-				(length 5.08)
-				(name "PI11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -8.89 0)
-				(length 5.08)
-				(name "PK1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -11.43 0)
-				(length 5.08)
-				(name "PK2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -13.97 0)
-				(length 5.08)
-				(name "PC9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -16.51 0)
-				(length 5.08)
-				(name "PA8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -21.59 0)
-				(length 5.08)
-				(name "PH0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -24.13 0)
+				(at -13.97 -19.05 0)
 				(length 5.08)
 				(name "PF2"
 					(effects
@@ -6070,133 +6178,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -26.67 0)
-				(length 5.08)
-				(name "PI13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -29.21 0)
-				(length 5.08)
-				(name "PI15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -31.75 0)
-				(length 5.08)
-				(name "PJ11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -34.29 0)
-				(length 5.08)
-				(name "PK0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -36.83 0)
-				(length 5.08)
-				(name "PC8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -39.37 0)
-				(length 5.08)
-				(name "PC7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -41.91 0)
-				(length 5.08)
-				(name "PH1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -44.45 0)
+				(at -13.97 -21.59 0)
 				(length 5.08)
 				(name "PF3"
 					(effects
@@ -6214,16 +6196,178 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -46.99 0)
+				(at -13.97 -24.13 0)
 				(length 5.08)
-				(name "PI14"
+				(name "PF4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H3"
+				(number "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -26.67 0)
+				(length 5.08)
+				(name "PF5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -29.21 0)
+				(length 5.08)
+				(name "PF6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -31.75 0)
+				(length 5.08)
+				(name "PF7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -34.29 0)
+				(length 5.08)
+				(name "PF8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -36.83 0)
+				(length 5.08)
+				(name "PF9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -39.37 0)
+				(length 5.08)
+				(name "PF10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -41.91 0)
+				(length 5.08)
+				(name "PF11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -44.45 0)
+				(length 5.08)
+				(name "PF12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -46.99 0)
+				(length 5.08)
+				(name "PF13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6234,14 +6378,32 @@
 			(pin passive line
 				(at -13.97 -49.53 0)
 				(length 5.08)
-				(name "PH4"
+				(name "PF14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H4"
+				(number "P6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -52.07 0)
+				(length 5.08)
+				(name "PF15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6322,34 +6484,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 29.21 180)
-				(length 5.08)
-				(name "PJ8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 13.97 26.67 180)
 				(length 5.08)
-				(name "PJ10"
+				(name "PG0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H13"
+				(number "N7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6360,14 +6504,14 @@
 			(pin passive line
 				(at 13.97 24.13 180)
 				(length 5.08)
-				(name "PG8"
+				(name "PG1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H14"
+				(number "M7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6378,14 +6522,32 @@
 			(pin passive line
 				(at 13.97 21.59 180)
 				(length 5.08)
-				(name "PC6"
+				(name "PG2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H15"
+				(number "M13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 19.05 180)
+				(length 5.08)
+				(name "PG3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6396,14 +6558,14 @@
 			(pin passive line
 				(at 13.97 16.51 180)
 				(length 5.08)
-				(name "NRST"
+				(name "PG4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J1"
+				(number "N12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6414,14 +6576,14 @@
 			(pin passive line
 				(at 13.97 13.97 180)
 				(length 5.08)
-				(name "PF4"
+				(name "PG5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J2"
+				(number "N11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6431,96 +6593,6 @@
 			)
 			(pin passive line
 				(at 13.97 11.43 180)
-				(length 5.08)
-				(name "PH5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 8.89 180)
-				(length 5.08)
-				(name "PH3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 6.35 180)
-				(length 5.08)
-				(name "PJ7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 3.81 180)
-				(length 5.08)
-				(name "PJ9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 1.27 180)
-				(length 5.08)
-				(name "PG7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -1.27 180)
 				(length 5.08)
 				(name "PG6"
 					(effects
@@ -6538,16 +6610,124 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -6.35 180)
+				(at 13.97 8.89 180)
 				(length 5.08)
-				(name "PF7"
+				(name "PG7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K1"
+				(number "J14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 6.35 180)
+				(length 5.08)
+				(name "PG8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 3.81 180)
+				(length 5.08)
+				(name "PG9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 1.27 180)
+				(length 5.08)
+				(name "PG10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -1.27 180)
+				(length 5.08)
+				(name "PG11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -3.81 180)
+				(length 5.08)
+				(name "PG12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -6.35 180)
+				(length 5.08)
+				(name "PG13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6558,14 +6738,14 @@
 			(pin passive line
 				(at 13.97 -8.89 180)
 				(length 5.08)
-				(name "PF6"
+				(name "PG14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K2"
+				(number "A4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6576,14 +6756,14 @@
 			(pin passive line
 				(at 13.97 -11.43 180)
 				(length 5.08)
-				(name "PF5"
+				(name "PG15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K3"
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6592,7 +6772,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -13.97 180)
+				(at 13.97 -19.05 180)
 				(length 5.08)
 				(name "PH2"
 					(effects
@@ -6610,52 +6790,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -16.51 180)
-				(length 5.08)
-				(name "PJ6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -19.05 180)
-				(length 5.08)
-				(name "PD15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 13.97 -21.59 180)
 				(length 5.08)
-				(name "PB13"
+				(name "PH3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K14"
+				(number "J4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6666,14 +6810,32 @@
 			(pin passive line
 				(at 13.97 -24.13 180)
 				(length 5.08)
-				(name "PD10"
+				(name "PH4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K15"
+				(number "H4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -26.67 180)
+				(length 5.08)
+				(name "PH5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6684,14 +6846,14 @@
 			(pin passive line
 				(at 13.97 -29.21 180)
 				(length 5.08)
-				(name "PF10"
+				(name "PH6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L1"
+				(number "P13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6702,14 +6864,14 @@
 			(pin passive line
 				(at 13.97 -31.75 180)
 				(length 5.08)
-				(name "PF9"
+				(name "PH7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L2"
+				(number "N13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6720,14 +6882,14 @@
 			(pin passive line
 				(at 13.97 -34.29 180)
 				(length 5.08)
-				(name "PF8"
+				(name "PH8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L3"
+				(number "P14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6738,14 +6900,14 @@
 			(pin passive line
 				(at 13.97 -36.83 180)
 				(length 5.08)
-				(name "PC3"
+				(name "PH9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L4"
+				(number "N14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6756,14 +6918,14 @@
 			(pin passive line
 				(at 13.97 -39.37 180)
 				(length 5.08)
-				(name "BYPASS_REG"
+				(name "PH10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L5"
+				(number "P15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6774,14 +6936,14 @@
 			(pin passive line
 				(at 13.97 -41.91 180)
 				(length 5.08)
-				(name "PD14"
+				(name "PH11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L12"
+				(number "N15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6792,14 +6954,14 @@
 			(pin passive line
 				(at 13.97 -44.45 180)
 				(length 5.08)
-				(name "PB12"
+				(name "PH12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L13"
+				(number "M15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6810,14 +6972,14 @@
 			(pin passive line
 				(at 13.97 -46.99 180)
 				(length 5.08)
-				(name "PD9"
+				(name "PH13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L14"
+				(number "E12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6828,14 +6990,32 @@
 			(pin passive line
 				(at 13.97 -49.53 180)
 				(length 5.08)
-				(name "PD8"
+				(name "PH14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "L15"
+				(number "E13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -52.07 180)
+				(length 5.08)
+				(name "PH15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6867,7 +7047,7 @@
 		(symbol "STM32F746NGH6_1_3_1"
 			(rectangle
 				(start -8.89 53.34)
-				(end 8.89 -52.07)
+				(end 8.89 -54.61)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7081,16 +7261,52 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 21.59 0)
+				(at -13.97 26.67 0)
 				(length 5.08)
-				(name "PC0"
+				(name "PI0"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M2"
+				(number "E14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 24.13 0)
+				(length 5.08)
+				(name "PI1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 21.59 0)
+				(length 5.08)
+				(name "PI2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7101,14 +7317,14 @@
 			(pin passive line
 				(at -13.97 19.05 0)
 				(length 5.08)
-				(name "PC1"
+				(name "PI3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M3"
+				(number "C13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7119,14 +7335,14 @@
 			(pin passive line
 				(at -13.97 16.51 0)
 				(length 5.08)
-				(name "PC2"
+				(name "PI4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M4"
+				(number "C3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7137,14 +7353,14 @@
 			(pin passive line
 				(at -13.97 13.97 0)
 				(length 5.08)
-				(name "PB2"
+				(name "PI5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M5"
+				(number "D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7155,14 +7371,14 @@
 			(pin passive line
 				(at -13.97 11.43 0)
 				(length 5.08)
-				(name "PF12"
+				(name "PI6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M6"
+				(number "D6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7173,14 +7389,14 @@
 			(pin passive line
 				(at -13.97 8.89 0)
 				(length 5.08)
-				(name "PG1"
+				(name "PI7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M7"
+				(number "D4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7191,14 +7407,14 @@
 			(pin passive line
 				(at -13.97 6.35 0)
 				(length 5.08)
-				(name "PF15"
+				(name "PI8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M8"
+				(number "C2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7209,14 +7425,14 @@
 			(pin passive line
 				(at -13.97 3.81 0)
 				(length 5.08)
-				(name "PJ4"
+				(name "PI9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M9"
+				(number "E4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7227,14 +7443,14 @@
 			(pin passive line
 				(at -13.97 1.27 0)
 				(length 5.08)
-				(name "PD12"
+				(name "PI10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M10"
+				(number "D5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7245,14 +7461,14 @@
 			(pin passive line
 				(at -13.97 -1.27 0)
 				(length 5.08)
-				(name "PD13"
+				(name "PI11"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M11"
+				(number "F3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7263,14 +7479,14 @@
 			(pin passive line
 				(at -13.97 -3.81 0)
 				(length 5.08)
-				(name "PG3"
+				(name "PI12"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M12"
+				(number "E3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7281,14 +7497,14 @@
 			(pin passive line
 				(at -13.97 -6.35 0)
 				(length 5.08)
-				(name "PG2"
+				(name "PI13"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M13"
+				(number "G3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7299,14 +7515,14 @@
 			(pin passive line
 				(at -13.97 -8.89 0)
 				(length 5.08)
-				(name "PJ5"
+				(name "PI14"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M14"
+				(number "H3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7317,32 +7533,14 @@
 			(pin passive line
 				(at -13.97 -11.43 0)
 				(length 5.08)
-				(name "PH12"
+				(name "PI15"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "M15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -16.51 0)
-				(length 5.08)
-				(name "PA1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N2"
+				(number "G4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7351,565 +7549,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.97 -19.05 0)
-				(length 5.08)
-				(name "PA0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -21.59 0)
-				(length 5.08)
-				(name "PA4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -24.13 0)
-				(length 5.08)
-				(name "PC4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -26.67 0)
-				(length 5.08)
-				(name "PF13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -29.21 0)
-				(length 5.08)
-				(name "PG0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -31.75 0)
-				(length 5.08)
-				(name "PJ3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -34.29 0)
-				(length 5.08)
-				(name "PE8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -36.83 0)
-				(length 5.08)
-				(name "PD11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -39.37 0)
-				(length 5.08)
-				(name "PG5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -41.91 0)
-				(length 5.08)
-				(name "PG4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -44.45 0)
-				(length 5.08)
-				(name "PH7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -46.99 0)
-				(length 5.08)
-				(name "PH9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -13.97 -49.53 0)
-				(length 5.08)
-				(name "PH11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 21.59 180)
-				(length 5.08)
-				(name "PA2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 19.05 180)
-				(length 5.08)
-				(name "PA6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 16.51 180)
-				(length 5.08)
-				(name "PA5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 13.97 180)
-				(length 5.08)
-				(name "PC5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 11.43 180)
-				(length 5.08)
-				(name "PF14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 8.89 180)
-				(length 5.08)
-				(name "PJ2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 6.35 180)
-				(length 5.08)
-				(name "PF11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 3.81 180)
-				(length 5.08)
-				(name "PE9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 1.27 180)
-				(length 5.08)
-				(name "PE11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -1.27 180)
-				(length 5.08)
-				(name "PE14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -3.81 180)
-				(length 5.08)
-				(name "PB10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -6.35 180)
-				(length 5.08)
-				(name "PH6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -8.89 180)
-				(length 5.08)
-				(name "PH8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -11.43 180)
-				(length 5.08)
-				(name "PH10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -16.51 180)
-				(length 5.08)
-				(name "PA3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -19.05 180)
-				(length 5.08)
-				(name "PA7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -21.59 180)
-				(length 5.08)
-				(name "PB1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -24.13 180)
-				(length 5.08)
-				(name "PB0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -26.67 180)
+				(at -13.97 -13.97 0)
 				(length 5.08)
 				(name "PJ0"
 					(effects
@@ -7927,7 +7567,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -29.21 180)
+				(at -13.97 -16.51 0)
 				(length 5.08)
 				(name "PJ1"
 					(effects
@@ -7945,16 +7585,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -31.75 180)
+				(at -13.97 -19.05 0)
 				(length 5.08)
-				(name "PE7"
+				(name "PJ2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R8"
+				(number "P7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7963,16 +7603,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -34.29 180)
+				(at -13.97 -21.59 0)
 				(length 5.08)
-				(name "PE10"
+				(name "PJ3"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R9"
+				(number "N8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7981,16 +7621,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -36.83 180)
+				(at -13.97 -24.13 0)
 				(length 5.08)
-				(name "PE12"
+				(name "PJ4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R10"
+				(number "M9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7999,16 +7639,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -39.37 180)
+				(at -13.97 -26.67 0)
 				(length 5.08)
-				(name "PE15"
+				(name "PJ5"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R11"
+				(number "M14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8017,16 +7657,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -41.91 180)
+				(at -13.97 -29.21 0)
 				(length 5.08)
-				(name "PE13"
+				(name "PJ6"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R12"
+				(number "K12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8035,16 +7675,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -44.45 180)
+				(at -13.97 -31.75 0)
 				(length 5.08)
-				(name "PB11"
+				(name "PJ7"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R13"
+				(number "J12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8053,16 +7693,16 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -46.99 180)
+				(at -13.97 -34.29 0)
 				(length 5.08)
-				(name "PB14"
+				(name "PJ8"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R14"
+				(number "H12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8071,16 +7711,376 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -49.53 180)
+				(at -13.97 -36.83 0)
 				(length 5.08)
-				(name "PB15"
+				(name "PJ9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "R15"
+				(number "J13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -39.37 0)
+				(length 5.08)
+				(name "PJ10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -41.91 0)
+				(length 5.08)
+				(name "PJ11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -44.45 0)
+				(length 5.08)
+				(name "PJ12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -46.99 0)
+				(length 5.08)
+				(name "PJ13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -49.53 0)
+				(length 5.08)
+				(name "PJ14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -52.07 0)
+				(length 5.08)
+				(name "PJ15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 50.8 180)
+				(length 5.08)
+				(name "VCAP_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 45.72 180)
+				(length 5.08)
+				(name "VCAP_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 26.67 180)
+				(length 5.08)
+				(name "PK0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 24.13 180)
+				(length 5.08)
+				(name "PK1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 21.59 180)
+				(length 5.08)
+				(name "PK2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 19.05 180)
+				(length 5.08)
+				(name "PK3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 16.51 180)
+				(length 5.08)
+				(name "PK4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 13.97 180)
+				(length 5.08)
+				(name "PK5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 11.43 180)
+				(length 5.08)
+				(name "PK6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 8.89 180)
+				(length 5.08)
+				(name "PK7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 0 180)
+				(length 5.08)
+				(name "NRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -5.08 180)
+				(length 5.08)
+				(name "BOOT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -10.16 180)
+				(length 5.08)
+				(name "PDR_ON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -15.24 180)
+				(length 5.08)
+				(name "BYPASS_REG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L5"
 					(effects
 						(font
 							(size 1.27 1.27)

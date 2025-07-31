@@ -878,24 +878,24 @@
       "Root"
     ],
     [
-      "a4ea5d55-2314-4804-8750-f8f12484bbce",
-      "USB & POWER"
+      "e16075e4-ee13-4b47-801c-d4c072de769b",
+      "STM32_io"
     ],
     [
-      "3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2",
-      "Memory"
+      "a4ea5d55-2314-4804-8750-f8f12484bbce",
+      "USB & POWER"
     ],
     [
       "2d70a10f-8989-40ff-9a87-2cfa97b94251",
       "AHRS"
     ],
     [
-      "a2773f19-5d2b-46e4-ac82-0d57be5829df",
-      "Communication"
+      "3e7c6c79-bc31-4cc9-af6a-d0a28245a7b2",
+      "Memory"
     ],
     [
-      "9f3eb64b-134a-4c30-b954-72a2b2c054ef",
-      "IO Processor"
+      "a2773f19-5d2b-46e4-ac82-0d57be5829df",
+      "IO"
     ]
   ],
   "text_variables": {}
